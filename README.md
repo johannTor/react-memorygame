@@ -2,7 +2,7 @@
 
 Live version: 
 
-In this assignment we got introduced to the javascript framework React. I decided to make a little memory game and at the end of the day it was good practice. I'm sure I could re-do it and organize the components and logic a bit better but at least it works (I think).
+In this assignment we got introduced to the javascript framework React. I decided to make a little memory game and at the end of the day it was good practice. I'm sure I could re-do it and organize the components and logic a bit better but at least it should work.
 
 Out of shortage of ideas of a theme I decided to use programming language logos as content for the memory game. The main part of the code happens in the Board component where a list of image objects is initialized. Each image object contains the following properties:
 * Key - Value from 0 to the list length - 1
