@@ -1,13 +1,13 @@
-import c from './images/c.png';
-import cpp from './images/cpp.png';
-import csharp from './images/csharp.svg';
-import html5 from './images/html5.png';
-import js from './images/js.png';
-import python from './images/python.png';
-import ruby from './images/ruby.png';
-import ts from './images/ts.png';
+// import c from '../public/images/c.png';
+// import cpp from '../public/images/cpp.png';
+// import csharp from '../public/images/csharp.svg';
+// import html5 from '../public/images/html5.png';
+// import js from '../public/images/js.png';
+// import python from '../public/images/python.png';
+// import ruby from '../public/images/ruby.png';
+// import ts from '../public/images/ts.png';
 
-const imgs = [c, cpp, csharp, html5, js, python, ruby, ts];
+const imgs = ['images/c.png', 'images/cpp.png', 'images/csharp.svg', 'images/html5.png', 'images/js.png', 'images/python.png', 'images/ruby.png', 'images/ts.png'];
 
 // To use the consistant image array for development, export displayImgs
 const images = [...imgs, ...imgs];

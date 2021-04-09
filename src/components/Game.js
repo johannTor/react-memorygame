@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
 import Board from './Board';
-import Results from './Results';
 
 class Game extends Component {
   constructor(props) {

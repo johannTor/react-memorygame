@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SquareImage from './SquareImage';
 import Results from './Results';
 import {randImgs, randomizeImgOrder} from '../imgImport';
-import blank from '../images/blank.svg'
+// import blank from '../../public/images/blank.svg';
 
 class Board extends Component {
   constructor(props) {
@@ -114,7 +114,7 @@ class Board extends Component {
       if(item.found || item.reveal) {
         return <div key={index} className="grid-item"><SquareImage source={item.source} imgID={item.id} imgKey={index} onClick={this.handleClick} found={item.found}/></div>
       } else {
-        return <div key={index} className="grid-item"><SquareImage source={blank} imgID={item.id} imgKey={index} onClick={this.handleClick}/></div>
+        return <div key={index} className="grid-item"><SquareImage source={'images/blank.svg'} imgID={item.id} imgKey={index} onClick={this.handleClick}/></div>
       }
     });
 
